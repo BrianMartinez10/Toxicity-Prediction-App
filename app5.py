@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load models and scaler
-model_dir = r"C:\\Users\\brian\\OneDrive\\Escritorio\\Lambton\\Semester2\\Toxicology\\Saved_Models"
+model_dir = "./"
 models = {
     'Random Forest': joblib.load(os.path.join(model_dir, 'RandomForest_model.pkl')),
     'Gradient Boosting': joblib.load(os.path.join(model_dir, 'GradientBoosting_model.pkl')),
